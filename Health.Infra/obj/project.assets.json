@@ -1170,19 +1170,6 @@
         "runtime": {
           "bin/placeholder/Health.Domain.dll": {}
         }
-      },
-      "Health.Service/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "dependencies": {
-          "Health.Domain": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Health.Service.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Health.Service.dll": {}
-        }
       }
     }
   },
@@ -3157,17 +3144,11 @@
       "type": "project",
       "path": "../Health.Domain/Health.Domain.csproj",
       "msbuildProject": "../Health.Domain/Health.Domain.csproj"
-    },
-    "Health.Service/1.0.0": {
-      "type": "project",
-      "path": "../Health.Service/Health.Service.csproj",
-      "msbuildProject": "../Health.Service/Health.Service.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
       "Health.Domain >= 1.0.0",
-      "Health.Service >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 7.0.16",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.16",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.16",
@@ -3204,9 +3185,6 @@
           "projectReferences": {
             "C:\\Users\\Felipe\\RiderProjects\\Health\\Health.Domain\\Health.Domain.csproj": {
               "projectPath": "C:\\Users\\Felipe\\RiderProjects\\Health\\Health.Domain\\Health.Domain.csproj"
-            },
-            "C:\\Users\\Felipe\\RiderProjects\\Health\\Health.Service\\Health.Service.csproj": {
-              "projectPath": "C:\\Users\\Felipe\\RiderProjects\\Health\\Health.Service\\Health.Service.csproj"
             }
           }
         }

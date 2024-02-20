@@ -625,7 +625,6 @@
       "Health.Infra/1.0.0": {
         "dependencies": {
           "Health.Domain": "1.0.0",
-          "Health.Service": "1.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.16",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.16",
           "Pomelo.EntityFrameworkCore.MySql": "7.0.0"
@@ -636,7 +635,8 @@
       },
       "Health.Service/1.0.0": {
         "dependencies": {
-          "Health.Domain": "1.0.0"
+          "Health.Domain": "1.0.0",
+          "Health.Infra": "1.0.0"
         },
         "runtime": {
           "Health.Service.dll": {}

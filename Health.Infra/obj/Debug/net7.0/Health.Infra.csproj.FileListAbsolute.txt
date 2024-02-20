@@ -3,9 +3,7 @@ C:\Users\Felipe\RiderProjects\Health\Health.Infra\bin\Debug\net7.0\Health.Infra.
 C:\Users\Felipe\RiderProjects\Health\Health.Infra\bin\Debug\net7.0\Health.Infra.dll
 C:\Users\Felipe\RiderProjects\Health\Health.Infra\bin\Debug\net7.0\Health.Infra.pdb
 C:\Users\Felipe\RiderProjects\Health\Health.Infra\bin\Debug\net7.0\Health.Domain.dll
-C:\Users\Felipe\RiderProjects\Health\Health.Infra\bin\Debug\net7.0\Health.Service.dll
 C:\Users\Felipe\RiderProjects\Health\Health.Infra\bin\Debug\net7.0\Health.Domain.pdb
-C:\Users\Felipe\RiderProjects\Health\Health.Infra\bin\Debug\net7.0\Health.Service.pdb
 C:\Users\Felipe\RiderProjects\Health\Health.Infra\obj\Debug\net7.0\Health.Infra.csproj.AssemblyReference.cache
 C:\Users\Felipe\RiderProjects\Health\Health.Infra\obj\Debug\net7.0\Health.Infra.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Felipe\RiderProjects\Health\Health.Infra\obj\Debug\net7.0\Health.Infra.AssemblyInfoInputs.cache
@@ -17,3 +15,4 @@ C:\Users\Felipe\RiderProjects\Health\Health.Infra\obj\Debug\net7.0\refint\Health
 C:\Users\Felipe\RiderProjects\Health\Health.Infra\obj\Debug\net7.0\Health.Infra.pdb
 C:\Users\Felipe\RiderProjects\Health\Health.Infra\obj\Debug\net7.0\Health.Infra.genruntimeconfig.cache
 C:\Users\Felipe\RiderProjects\Health\Health.Infra\obj\Debug\net7.0\ref\Health.Infra.dll
+C:\Users\Felipe\RiderProjects\Health\Health.Infra\obj\Debug\net7.0\Health.Infra.sourcelink.json

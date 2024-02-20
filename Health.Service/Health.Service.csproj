@@ -12,6 +12,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\Health.Domain\Health.Domain.csproj" />
+      <ProjectReference Include="..\Health.Infra\Health.Infra.csproj" />
     </ItemGroup>
 
 </Project>

@@ -13,3 +13,6 @@ C:\Users\Felipe\RiderProjects\Health\Health.Service\obj\Debug\net7.0\Health.Serv
 C:\Users\Felipe\RiderProjects\Health\Health.Service\obj\Debug\net7.0\refint\Health.Service.dll
 C:\Users\Felipe\RiderProjects\Health\Health.Service\obj\Debug\net7.0\Health.Service.pdb
 C:\Users\Felipe\RiderProjects\Health\Health.Service\obj\Debug\net7.0\ref\Health.Service.dll
+C:\Users\Felipe\RiderProjects\Health\Health.Service\bin\Debug\net7.0\Health.Infra.dll
+C:\Users\Felipe\RiderProjects\Health\Health.Service\bin\Debug\net7.0\Health.Infra.pdb
+C:\Users\Felipe\RiderProjects\Health\Health.Service\obj\Debug\net7.0\Health.Service.sourcelink.json

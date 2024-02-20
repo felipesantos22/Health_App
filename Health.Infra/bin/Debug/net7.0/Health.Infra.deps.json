@@ -9,7 +9,6 @@
       "Health.Infra/1.0.0": {
         "dependencies": {
           "Health.Domain": "1.0.0",
-          "Health.Service": "1.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.16",
           "Microsoft.EntityFrameworkCore.Design": "7.0.16",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.16",
@@ -623,14 +622,6 @@
         "runtime": {
           "Health.Domain.dll": {}
         }
-      },
-      "Health.Service/1.0.0": {
-        "dependencies": {
-          "Health.Domain": "1.0.0"
-        },
-        "runtime": {
-          "Health.Service.dll": {}
-        }
       }
     }
   },
@@ -1103,11 +1094,6 @@
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
     },
     "Health.Domain/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Health.Service/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

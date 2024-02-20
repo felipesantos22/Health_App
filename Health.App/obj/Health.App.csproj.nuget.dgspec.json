@@ -169,9 +169,6 @@
             "projectReferences": {
               "C:\\Users\\Felipe\\RiderProjects\\Health\\Health.Domain\\Health.Domain.csproj": {
                 "projectPath": "C:\\Users\\Felipe\\RiderProjects\\Health\\Health.Domain\\Health.Domain.csproj"
-              },
-              "C:\\Users\\Felipe\\RiderProjects\\Health\\Health.Service\\Health.Service.csproj": {
-                "projectPath": "C:\\Users\\Felipe\\RiderProjects\\Health\\Health.Service\\Health.Service.csproj"
               }
             }
           }
@@ -257,6 +254,9 @@
             "projectReferences": {
               "C:\\Users\\Felipe\\RiderProjects\\Health\\Health.Domain\\Health.Domain.csproj": {
                 "projectPath": "C:\\Users\\Felipe\\RiderProjects\\Health\\Health.Domain\\Health.Domain.csproj"
+              },
+              "C:\\Users\\Felipe\\RiderProjects\\Health\\Health.Infra\\Health.Infra.csproj": {
+                "projectPath": "C:\\Users\\Felipe\\RiderProjects\\Health\\Health.Infra\\Health.Infra.csproj"
               }
             }
           }
