@@ -1,0 +1,15 @@
+C:\Users\Felipe\RiderProjects\Health\Health.Service\bin\Debug\net7.0\Health.Service.deps.json
+C:\Users\Felipe\RiderProjects\Health\Health.Service\bin\Debug\net7.0\Health.Service.dll
+C:\Users\Felipe\RiderProjects\Health\Health.Service\bin\Debug\net7.0\Health.Service.pdb
+C:\Users\Felipe\RiderProjects\Health\Health.Service\bin\Debug\net7.0\Health.Domain.dll
+C:\Users\Felipe\RiderProjects\Health\Health.Service\bin\Debug\net7.0\Health.Domain.pdb
+C:\Users\Felipe\RiderProjects\Health\Health.Service\obj\Debug\net7.0\Health.Service.csproj.AssemblyReference.cache
+C:\Users\Felipe\RiderProjects\Health\Health.Service\obj\Debug\net7.0\Health.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Felipe\RiderProjects\Health\Health.Service\obj\Debug\net7.0\Health.Service.AssemblyInfoInputs.cache
+C:\Users\Felipe\RiderProjects\Health\Health.Service\obj\Debug\net7.0\Health.Service.AssemblyInfo.cs
+C:\Users\Felipe\RiderProjects\Health\Health.Service\obj\Debug\net7.0\Health.Service.csproj.CoreCompileInputs.cache
+C:\Users\Felipe\RiderProjects\Health\Health.Service\obj\Debug\net7.0\Health.S.E299E8D5.Up2Date
+C:\Users\Felipe\RiderProjects\Health\Health.Service\obj\Debug\net7.0\Health.Service.dll
+C:\Users\Felipe\RiderProjects\Health\Health.Service\obj\Debug\net7.0\refint\Health.Service.dll
+C:\Users\Felipe\RiderProjects\Health\Health.Service\obj\Debug\net7.0\Health.Service.pdb
+C:\Users\Felipe\RiderProjects\Health\Health.Service\obj\Debug\net7.0\ref\Health.Service.dll
