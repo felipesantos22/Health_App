@@ -10,3 +10,4 @@ C:\Users\Felipe\RiderProjects\Health\Health.Domain\obj\Debug\net7.0\Health.Domai
 C:\Users\Felipe\RiderProjects\Health\Health.Domain\obj\Debug\net7.0\refint\Health.Domain.dll
 C:\Users\Felipe\RiderProjects\Health\Health.Domain\obj\Debug\net7.0\Health.Domain.pdb
 C:\Users\Felipe\RiderProjects\Health\Health.Domain\obj\Debug\net7.0\ref\Health.Domain.dll
+C:\Users\Felipe\RiderProjects\Health\Health.Domain\obj\Debug\net7.0\Health.Domain.sourcelink.json

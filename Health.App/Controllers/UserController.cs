@@ -38,4 +38,18 @@ public class UserController : ControllerBase
         var user = await _baseRepository.Select();
         return Ok(user);
     }
+    
+    [HttpGet("{id:int}")]
+    public async Task<ActionResult<User>> Select(int id)
+    {
+        var user = await _baseRepository.Select(id);
+        try
+        {
+            return Ok(user);
+        }
+        catch (Exception e)
+        {
+            return BadRequest(new {message = "User not found."});
+        }
+    }
 }

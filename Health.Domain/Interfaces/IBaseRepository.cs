@@ -1,10 +1,12 @@
-﻿namespace Health.Domain.Interfaces;
+﻿using Health.Domain.Entities;
+
+namespace Health.Domain.Interfaces;
 
 public interface IBaseRepository<TEntity>
 {
     Task<TEntity> Insert(TEntity obj);
 
-    Task<IList<TEntity>> Select();
+    Task<List<User?>> Select();
 
     Task<TEntity> Select(int id);
 

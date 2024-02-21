@@ -21,15 +21,16 @@ public class UserRepository:IBaseRepository<User>
         return obj;
     }
 
-    public async Task<IList<User>> Select()
+    public async Task<List<User?>> Select()
     {
         var user = await _dataContext.Users.ToListAsync();
         return user;
     }
 
-    public Task<User> Select(int id)
+    public async Task<User?> Select(int id)
     {
-        throw new NotImplementedException();
+        var user = await _dataContext.Users.FirstOrDefaultAsync(u => u.Id == id);
+        return user;
     }
 
     public Task<User> Update(int id, User obj)
