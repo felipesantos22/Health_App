@@ -33,9 +33,14 @@ public class UserRepository:IBaseRepository<User>
         return user;
     }
 
-    public Task<User> Update(int id, User obj)
+    public async Task<User> Update(int id, User obj)
     {
-        throw new NotImplementedException();
+        var user = await _dataContext.Users.FirstOrDefaultAsync(u => u.Id == id);
+        user!.Email = obj.Email;
+        user.Name = obj.Name;
+        user.Password = obj.Password;
+        await _dataContext.SaveChangesAsync();
+        return user;
     }
 
     public Task<User> Delete(int id)

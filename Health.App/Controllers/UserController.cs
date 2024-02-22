@@ -43,13 +43,19 @@ public class UserController : ControllerBase
     public async Task<ActionResult<User>> Select(int id)
     {
         var user = await _baseRepository.Select(id);
-        try
-        {
-            return Ok(user);
-        }
-        catch (Exception e)
+        if (user == null)
         {
             return BadRequest(new {message = "User not found."});
         }
+        return Ok(user);
+    }
+    
+    [HttpPut("{id:int}")]
+    public async Task<ActionResult<User>> Update(int id, [FromBody] User user)
+    {
+        var updateUser = await _baseRepository.Select(id);
+        if (updateUser == null) return NotFound(new { message = "User not found" });
+        await _baseRepository.Update(id, user);
+        return Ok(new { message = "User Updated" });
     }
 }
