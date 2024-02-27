@@ -52,4 +52,6 @@ public class UserRepository:IBaseRepository<User>
     {
         throw new NotImplementedException();
     }
+    
+    
 }
