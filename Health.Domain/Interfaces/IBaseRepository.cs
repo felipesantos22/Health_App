@@ -6,7 +6,7 @@ public interface IBaseRepository<TEntity>
 {
     Task<TEntity> Insert(TEntity obj);
 
-    Task<List<User?>> Select();
+    Task<List<TEntity?>> Select();
 
     Task<TEntity> Select(int id);
 

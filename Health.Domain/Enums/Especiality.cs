@@ -2,5 +2,7 @@
 
 public enum Especiality
 {
-    
+    Pediatrician,
+    Geriatrician,
+    Orthopedist
 }

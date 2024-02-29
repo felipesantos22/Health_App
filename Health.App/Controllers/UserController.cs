@@ -43,7 +43,7 @@ public class UserController : ControllerBase
     public async Task<ActionResult<User>> Select(int id)
     {
         var user = await _baseRepository.Select(id);
-        if (user == null)
+        if (user.ToString() == null)
         {
             return BadRequest(new {message = "User not found."});
         }
@@ -54,7 +54,7 @@ public class UserController : ControllerBase
     public async Task<ActionResult<User>> Update(int id, [FromBody] User user)
     {
         var updateUser = await _baseRepository.Select(id);
-        if (updateUser == null) return NotFound(new { message = "User not found" });
+        if (updateUser.ToString() == null) return NotFound(new { message = "User not found" });
         await _baseRepository.Update(id, user);
         return Ok(new { message = "User Updated" });
     }

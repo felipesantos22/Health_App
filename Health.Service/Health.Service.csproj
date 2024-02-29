@@ -7,12 +7,12 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Services\" />
+      <ProjectReference Include="..\Health.Domain\Health.Domain.csproj" />
+      <ProjectReference Include="..\Health.Infra\Health.Infra.csproj" />
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Health.Domain\Health.Domain.csproj" />
-      <ProjectReference Include="..\Health.Infra\Health.Infra.csproj" />
+      <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="7.0.16" />
     </ItemGroup>
 
 </Project>

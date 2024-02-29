@@ -81,3 +81,4 @@ C:\Users\Felipe\RiderProjects\Health\Health.App\obj\Debug\net7.0\Health.App.pdb
 C:\Users\Felipe\RiderProjects\Health\Health.App\obj\Debug\net7.0\Health.App.genruntimeconfig.cache
 C:\Users\Felipe\RiderProjects\Health\Health.App\obj\Debug\net7.0\ref\Health.App.dll
 C:\Users\Felipe\RiderProjects\Health\Health.App\obj\Debug\net7.0\Health.App.sourcelink.json
+C:\Users\Felipe\RiderProjects\Health\Health.App\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
